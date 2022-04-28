@@ -1,0 +1,282 @@
+:root{
+    --ship-cove: #637dbc;
+    --french-lilac: #dfa3e7;
+    --matisse: #1e629c;
+    --eminence: #693180;
+    --wisteria: #a579c3;
+    --jacarta: #3b276a;
+    --affair: #693e89;
+    --perano: #acb7f5;
+    --mulberry: #be47a1;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.sectionNavbar{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+.navbarCaontainer{
+    /* margin-top: 1em; */
+    /* border: #1e629c 1pt solid; */
+    padding: 5px;
+    background-color: var()
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.navbarItem{
+    list-style: none;
+    width: 100px;
+    border-radius: 150px 150px 150px 150px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 1px -1px 32px -7px rgba(0, 0, 0, 0.75);
+    
+}
+.navbarItemLink{
+    text-decoration: none;
+    color: var(--jacarta);
+    padding: 10px;
+    font-family: monospace;
+    font-size: large;
+}
+
+.mainsection{
+    margin-top: .5em;
+    margin-left: 2em;
+    margin-right: 2em;
+    /* border: #1e629c 1pt solid; */
+}
+.paralllexContainer{
+    border: rgba(0, 0, 0,0.8) 0pt solid;
+    margin-top: 0px;
+    margin-bottom: 1.25em;
+    height: 85vh;
+    background-image: url(/media/img/no-mans-sky-minimal-art_masked.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow: 0px -4px 58px -8px rgba(0, 0, 0, 0.75);
+}
+.txtContainer{
+    position: absolute;
+    top: 23em;
+    left: 10em;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 20vw;
+    border-radius: 49px 49px 49px 49px;
+    border: 5px solid rgba(110, 110, 110, 0.58);
+    text-align: center;
+}
+.txt{
+    font-family: monospace;
+
+}
+.sectionCours{
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 4em;
+    background-color: rgb(203, 203, 203);
+    
+    /* border: #1e629c 1pt solid; */
+    display: block;
+    }
+.flexboxConatinerCours{
+   /* border: #3b276a 4pt dashed; */
+box-shadow: 0px -20px 0px 0px rgba(0, 0, 0, 0.4);
+   display: flex;
+ 
+   margin: 0;
+   padding: 0;
+}
+.Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flexBoxTitle{
+    font-family: monospace;
+    font-size: xx-large;
+    font-weight: 600;
+}
+.paragraphContainer{
+    /* border: #693180 1pt solid; */
+    width: 35em;
+}
+.coursExplication{
+    font-family: monospace;
+    margin-left: 2em;
+}
+.paragraphListContainer{
+    text-align: center;
+}
+.txt{
+    left: 5em;
+    font-weight: 800;
+}
+.list{
+    /* position: absolute; */
+    text-align: right;
+    list-style: none;
+    font-weight: 600;
+    font-family: monospace;
+}
+.exempleContainer{
+    margin-left: 15em;
+    margin-right: 4em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    /* border: #1e629c 3pt solid; */
+    width: 100%;
+    height: 100%;
+}
+.rectangleContainer{
+    padding: 1em;
+    background-color: var(--ship-cove);
+    /* size: inherit; */
+
+}
+.caroux{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    color: #1e629c;
+    margin: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.coursFlexBox{
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-bottom: 4em;
+    background-color: rgb(203, 203, 203); 
+}
+.exempleS{
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+.Explication1{
+    margin-top: 5em;
+   width: 40%;
+   max-height: 5em;
+   
+}
+.exempleContainer1{
+    /* border: #1e629c 1pt solid; */
+    width: 50%;
+}
+.rectangleContainer2{
+    margin-left: 7.8em;
+    margin-right: 4em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 2em;
+    background-color: var(--ship-cove);
+
+    display: flex;
+}
+.rectangleContainer3{
+    margin-left: 7.8em;
+    margin-right: 4em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 2em;
+    background-color: var(--ship-cove);
+    display: flex;
+    flex-direction: column;
+}
+.rectangleContainer4{
+    margin-left: 7.8em;
+    margin-right: 4em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 2em;
+    background-color: var(--ship-cove);
+    display: flex;
+    flex-wrap: wrap;
+}
+.rectangleContainer5{
+    max-height: 20em;
+    margin-left: 7.8em;
+    margin-right: 4em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 2em;
+    background-color: var(--ship-cove);
+    display: flex;
+    flex-flow: column wrap;
+   
+}
+.rectangleContainer6{
+    /* max-height: 20em; */
+    margin-left: 7.8em;
+    margin-right: 4em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 2em;
+    background-color: var(--ship-cove);
+    display: flex;
+    justify-content: flex-start;
+}
+.rectangleContainer7{
+    margin-left: 7.8em;
+    margin-right: 4em;
+    height: 12em;
+    padding: 2em;
+    background-color: var(--ship-cove);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.endPage{
+    margin-top: .8em;
+    margin-right: 2em;
+    margin-left: 2em;
+    padding: 2em;
+    background-color: rgb(96, 96, 96);
+}
+.txtfinpage{
+    width: 50%;
+}
+.txtfinpage{
+    color: white;
+    font-family: monospace;
+    font-size: x-large;
+}
+.exercice{
+    color: black;
+    font-weight: 600;
+    font-size: large;
+}
+.navbaritemExercice{
+    background-color: #256ca2;
+    border-radius: 150px 150px 150px 150px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 1px -1px 32px -7px rgba(0, 0, 0, 0.75),
+            29px -2px 118px 2px rgba(0, 0, 0, 0.63);
+    border: 1px solid rgba(0, 0, 0, 0.67);
+}
+
+.navbarItemLink4{
+    padding: 10px;
+    font-family: monospace;
+    font-size: large;
+    color: white;
+}
