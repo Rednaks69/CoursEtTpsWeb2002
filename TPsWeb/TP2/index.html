@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>TP2</title>
+</head>
+<body>
+    <section class="sectionNavbar">
+        <div class="navbarCaontainer">
+            <ul class="navbar">
+                <li class="navbarItem navbaritemHome"><a href="" class="navbarItemLink">Home</a></li>
+                <li class="navbarItem"><a href="" class="navbarItemLink">Cours</a></li>
+                <li class="navbarItem"><a href="" class="navbarItemLink">About</a></li>
+                <li class="navbarItem navbaritemExercice"><a href="" class="navbarItemLink navbarItemLink4">Exercice</a></li>
+            </ul>
+        </div>
+    </section>
+    <section class="mainsection">
+        <div class="paralllexContainer">
+           <div class="txtContainer">
+               <p class="txt">
+                   Bienvenus dans le <span style="color: #be47a1;"> TP2 !!</span> <br>
+                   Ce TP va vous faire pratiquer les layouts flexbox et grid layoute
+                </p>
+                <button class="btn">Join !</button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="sectionCours">
+        
+         <div class="flexboxConatinerCours">
+            <div class="Container">
+                        <h3 class="flexBoxTitle"> FlexBox </h3>
+                        <div class="paragraphContainer">
+                        
+                        <p class="coursExplication">
+                            <span style="font-size: x-large; font-weight: 600;">L</span>e module de mise en page de boîte flexible, facilite la conception d'une structure de mise en page flexible et réactive
+                            sans utiliser de flottement ou de positionnement.
+                            
+                            Afin de manager les position du contenus de container Flexbox offre plusieurs propriétés
+                        </p>
+                        <div class="paragraphListContainer">
+                            <p class="txt">
+                                Les propriétés de Flex container sont :
+                            </p>
+                        </div>
+                        <ul class="list">
+                            <li>flex-direction</li>
+                            <li>flex-wrap</li>
+                            <li>flex-flow</li>
+                            <li>justify-content</li>
+                            <li>align-items</li>
+                            <li>align-content</li>
+                        </ul>
+                        </div>
+            </div>
+            
+            <div class="exempleContainer">
+                        <div class="rectangleContainer">
+                            <div class="caroux carou1"></div>
+                            <div class="caroux carou2"></div>
+                            <div class="caroux carou3"></div>
+                        </div>
+            </div>
+         </div>
+    </section>
+
+
+
+    <section class="coursFlexBox">
+
+
+<!-- premire display flex -->
+
+        <div class="exempleS">
+            <h3 style="color: #693180 ;">Exemple1</h3>
+            <p class="Explication1" style="background-color: rgb(22, 5, 42);">
+                <span style="color: blueviolet;">
+                    .flex-container
+                </span>
+               <span style="color: white;">
+                   {
+               </span> 
+                <span style="color: rgb(58, 110, 179);">
+                    display :
+                </span>             
+                <span style="color:orange;"> 
+                     flex ;
+                </span>    
+                <span style="color: white;">
+                }
+                </span>
+            </p>
+            <div class="exempleContainer1">
+                <div class="rectangleContainer2">
+                    <div class="caroux carou1">1</div>
+                    <div class="caroux carou2">2</div>
+                    <div class="caroux carou3">3</div>
+                </div>
+            </div>
+            
+        </div>
+
+ 
+        
+<!-- flex-direction column -->
+        <div class="exempleS">
+            <h3 style="color: #693180 ;">Exemple2</h3>
+            <p class="Explication1" style="background-color: rgb(22, 5, 42);">
+                <span style="color: blueviolet;">
+                    .flex-container
+                </span>
+                <span style="color: white;">
+                    {
+                </span>
+                <span style="color: rgb(58, 110, 179);">
+                    display :
+                </span>
+                <span style="color:orange;">
+                    flex ;
+                </span><br>
+                <span style="color: rgb(58, 110, 179);">
+                    flex-direction :
+                </span>
+                <span style="color:orange;">
+                    column ;
+                </span>
+                <span style="color: white;">
+                    }
+                </span>
+            </p>
+            <div class="exempleContainer1">
+                <div class="rectangleContainer3">
+                    <div class="caroux carou1">1</div>
+                    <div class="caroux carou2">2</div>
+                    <div class="caroux carou3">3</div>
+                </div>
+            </div>
+        
+        </div>
+
+<!-- flex-wrap -->
+
+        <div class="exempleS">
+            <h3 style="color: #693180 ;">Exemple3</h3>
+            <p class="Explication1" style="background-color: rgb(22, 5, 42);">
+                <span style="color: blueviolet;">
+                    .flex-container
+                </span>
+                <span style="color: white;">
+                    {
+                </span>
+                <span style="color: rgb(58, 110, 179);">
+                    display :
+                </span>
+                <span style="color:orange;">
+                    flex ;
+                </span>
+                <span style="color: rgb(58, 110, 179);">
+                    flex-wrap :
+                </span>
+                <span style="color:orange;">
+                    wrap ;
+                </span>
+                <span style="color: white;">
+                    }
+                </span>
+            </p>
+            <div class="exempleContainer1">
+                <div class="rectangleContainer4">
+                    <div class="caroux carou1">1</div>
+                    <div class="caroux carou2">2</div>
+                    <div class="caroux carou3">3</div>
+                    <div class="caroux carou3">4</div>
+                    <div class="caroux carou3">5</div>
+                    <div class="caroux carou3">6</div>
+                    <div class="caroux carou3">7</div>
+                    <div class="caroux carou3">8</div>
+                    <div class="caroux carou3">9</div>
+                    <div class="caroux carou3">10</div>
+                </div>
+            </div>
+        
+        </div>
+
+<!-- flex-flow -->
+
+        <div class="exempleS">
+            <h3 style="color: #693180 ;">Exemple 4</h3>
+            <p class="Explication1" style="background-color: rgb(22, 5, 42);">
+                <span style="color: blueviolet;">
+                    .flex-container
+                </span>
+                <span style="color: white;">
+                    {
+                </span>
+                <span style="color: rgb(58, 110, 179);">
+                    display :
+                </span>
+                <span style="color:orange;">
+                    flex ;
+                </span><br>
+                <span style="color: rgb(58, 110, 179);">
+                flex-flow :
+                </span>
+                <span style="color:orange;">
+               colomn wrap;
+                </span>
+                <span style="color: white;">
+                    }
+                </span>
+            </p>
+            <div class="exempleContainer1">
+                <div class="rectangleContainer5">
+                    <div class="caroux carou1">1</div>
+                    <div class="caroux carou2">2</div>
+                    <div class="caroux carou3">3</div>
+                    <div class="caroux carou3">4</div>
+                    <div class="caroux carou3">5</div>
+                    <div class="caroux carou3">6</div>
+                    <div class="caroux carou3">7</div>
+                    <div class="caroux carou3">8</div>
+                    <div class="caroux carou3">9</div>
+                    <div class="caroux carou3">10</div>
+                </div>
+            </div>
+        
+        </div>
+
+
+
+
+
+
+       <!-- justify-content -->
+        
+        <div class="exempleS">
+            <h3 style="color: #693180 ;">Exemple 5</h3>
+            <p class="Explication1" style="background-color: rgb(22, 5, 42);">
+                <span style="color: blueviolet;">
+                    .flex-container
+                </span>
+                <span style="color: white;">
+                    {
+                </span>
+                <span style="color: rgb(58, 110, 179);">
+                    display :
+                </span>
+                <span style="color:orange;">
+                    flex ;
+                </span><br>
+                <span style="color: rgb(58, 110, 179);">
+                    justify-content :
+                </span>
+                <span style="color:orange;">
+                    space-between;
+                </span>
+                <span style="color: white;">
+                    }
+                </span>
+            </p>
+            <div class="exempleContainer1">
+                <div class="rectangleContainer6">
+                    <div class="caroux carou1">1</div>
+                    <div class="caroux carou2">2</div>
+                    <div class="caroux carou3">3</div>
+                    <div class="caroux carou3">4</div>
+                    
+                </div>
+            </div>
+        
+        </div>
+
+
+
+        <!-- align-items -->
+        
+        <div class="exempleS">
+            <h3 style="color: #693180 ;">Exemple 6</h3>
+            <p class="Explication1" style="background-color: rgb(22, 5, 42);">
+                <span style="color: blueviolet;">
+                    .flex-container
+                </span>
+                <span style="color: white;">
+                    {
+                </span>
+                <span style="color: rgb(58, 110, 179);">
+                    display :
+                </span>
+                <span style="color:orange;">
+                    flex ;
+                </span><br>
+                <span style="color: rgb(58, 110, 179);">
+                    align-items :
+                </span>
+                <span style="color:orange;">
+                    flex-start;
+                </span>
+                <span style="color: white;">
+                    }
+                </span>
+            </p>
+            <div class="exempleContainer1">
+                <div class="rectangleContainer7">
+                    <div class="caroux carou1">1</div>
+                    <div class="caroux carou2">2</div>
+                    <div class="caroux carou3">3</div>
+        
+                </div>
+            </div>
+        
+        </div>
+    </section>
+    <section class="endPage">
+        <div class="txtfinpage">
+            <h4>Exercice a faire :</h4>
+            <p class="exercice">
+                faire le menme site web pour les grid layout 
+            </p>
+        </div>
+    </section>
+        
+    
+</body>
+</html>
