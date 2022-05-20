@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+
+}
+h1{
+    font-family: monospace;
+    font-size: xx-large;
+    color: rgb(19, 6, 31);
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.exerciceContainer{
+margin: 2em 4em 1em 4em ;
+background-color: #fff;
+padding: 2em 4em 0em 4em;
+background-color: #e8e8e88d;
+}
+.exercicesTitle{
+    font-family: monospace;
+    font-size: large;
+    font-weight: 700;
+    border-style: solid;
+    border-color: blueviolet;
+    border-width: 0 0 0 5px;
+    padding: 0 0 0 5px;
+    margin: 2em 0 3em 0;
+}
+.enonC{
+    padding: 1em ;
+    font-family: monospace;
+    font-size: medium;
+    font-weight: 500;
+}
+.formContainer{
+    margin: 2em;
+    padding: 1em;
+}
+button{
+    background-color: blueviolet;
+    color: #e8e8e88d;
+    font-family: monospace;
+    font-size: medium;
+    font-weight: 800;
+}
+.trangle{
+    font-size: larger;
+    display: flex;
+    justify-content: flex-end;
+}
